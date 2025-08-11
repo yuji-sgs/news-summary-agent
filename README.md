@@ -1,4 +1,4 @@
-# Py-Agent
+# news-summary-agent
 ニュースRSSを取得し、LLMで要約してSlackに配信するシンプルな自動化エージェントです。
 
 - **取得**: RSSフィード（`feedparser`）
