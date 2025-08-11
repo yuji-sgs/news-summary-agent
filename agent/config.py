@@ -11,7 +11,7 @@ NEWS_RSS = os.getenv("NEWS_RSS")
 NEWS_FEEDS = [u.strip() for u in os.getenv("NEWS_FEEDS", "").split(",") if u.strip()]
 if not NEWS_FEEDS and NEWS_RSS:
     NEWS_FEEDS = [NEWS_RSS]
-
+NEWS_MAX_AGE_DAYS = int(os.getenv("NEWS_MAX_AGE_DAYS", "7"))
 DEFAULT_MODEL = os.getenv("MODEL", "gpt-5-nano")
 
 # 好みキーワード（環境変数で上書き可能、カンマ区切り）
