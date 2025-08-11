@@ -1,5 +1,5 @@
 # news-summary-agent
-ニュースRSSを取得し、LLMで要約してSlackに配信するシンプルな自動化エージェントです。
+ニュースRSSを取得し、LLMで要約してSlackに配信する自動化エージェント
 
 - **取得**: RSSフィード（`feedparser`）
 - **解析**: HTML本文抽出（`BeautifulSoup`）
